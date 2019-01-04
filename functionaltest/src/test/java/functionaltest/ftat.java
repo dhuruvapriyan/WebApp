@@ -96,7 +96,7 @@ public class ftat {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//h2[text()='Repair Ticket Page']")).isDisplayed();
 	}
-
+//
 	@Test(priority = 4)
 	public void logouttest() {
 		driver.findElement(By.partialLinkText("Logout")).click();
